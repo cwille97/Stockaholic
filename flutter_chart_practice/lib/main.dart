@@ -187,6 +187,9 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           children: <Widget>[
             Center(
+              child: Text(symbol),
+            ),
+            Center(
               child: RaisedButton(
                 onPressed: () {
                   Navigator.pop(context);
