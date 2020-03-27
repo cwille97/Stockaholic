@@ -206,7 +206,7 @@ class _MyAppState extends State<MyApp> {
                     return Column(
                       children: <Widget>[
                         SizedBox(
-                          height: 400,
+                          height: 150,
                           child: ListView.builder( // see: https://medium.com/@dev.n/the-complete-flutter-series-article-3-lists-and-grids-in-flutter-b20d1a393e39
                             scrollDirection: Axis.vertical,
                             shrinkWrap: true,
